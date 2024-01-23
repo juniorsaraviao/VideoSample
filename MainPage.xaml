@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VideoSample.MainPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit">
+
+    <StackLayout VerticalOptions="FillAndExpand"
+                 HorizontalOptions="FillAndExpand">
+        <toolkit:MediaElement Source="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                              ShouldShowPlaybackControls="False"
+                              ShouldAutoPlay="True"
+                              Volume="0"
+                              ShouldLoopPlayback="True"
+                              HeightRequest="300"
+                              BackgroundColor="Red"
+                              HorizontalOptions="Fill"
+                              Aspect="AspectFit"
+                              />
+    </StackLayout>
+
+</ContentPage>
+
